@@ -3,7 +3,7 @@ package main
 // Every Go program starts with a package declaration.
 // Package main is required for a standalone executable.
 
-import "fmt"
+import "golang/syntax"
 
 // Import package "fmt" to use Println() function
 
@@ -12,7 +12,10 @@ import "fmt"
 // This is a Single line comment
 func main() {
 	// Main function is the starting point of program
-	fmt.Println("Hello, World!")
+	//fmt.Println("Hello, World!")
+	//syntax.HelloWorld()
+	//syntax.VariablesAndConstants()
+	syntax.BasicDataTypes()
 	// Function Prinln() is defined in fmt package used to print
 	// "Hello, World!" to the output screen
 }
